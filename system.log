@@ -1,5 +1,6 @@
 INFO: System started
 INFO: Backup completed
+WARNING: CPU usage high
 ERROR: Disk full
 INFO: User login
 ERROR: Connection timeout
