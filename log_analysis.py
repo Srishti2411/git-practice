@@ -11,8 +11,15 @@ with open("system.log", "r") as file:
         elif "ERROR" in line:
             error_count += 1
 
-print("Log Analysis Report")
-print("-------------------")
-print("INFO:", info_count)
-print("WARNING:", warning_count)
-print("ERROR:", error_count)
+report = f"""
+Log Analysis Report
+-------------------
+INFO: {info_count}
+WARNING: {warning_count}
+ERROR: {error_count}
+"""
+
+print(report)
+
+with open("log_report.txt", "w") as report_file:
+    report_file.write(report)
