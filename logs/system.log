@@ -3,4 +3,9 @@ INFO: Backup completed
 WARNING: CPU usage high
 ERROR: Disk full
 INFO: User login
-ERROR: Connection timeout
+ERROR: Connection timeoutINFO: System started
+WARNING: CPU usage high
+ERROR: Disk space low
+INFO: Service started
+WARNING: Memory usage high
+ERROR: Database connection failed
